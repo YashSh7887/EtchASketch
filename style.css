@@ -1,0 +1,22 @@
+div{
+    border: 1px solid black;
+    
+}
+
+.parentContainer{
+    display: flex;
+    justify-content: left;
+}
+.item{
+    height: 45px;
+    width: 45px;
+    
+}
+body{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+button{
+    align-self: flex-start;
+}
